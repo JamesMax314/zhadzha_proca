@@ -13,7 +13,7 @@
 class SpheroidalExtraction : public SurfaceExtraction<SpheroidalGeometry>
 {
   public:
-    struct params_t : SurfaceExtraction::params_t
+    struct params_t : surface_extraction_params_t
     {
         int &num_extraction_radii = num_surfaces;
         std::vector<double> &extraction_radii = surface_param_values;
@@ -31,7 +31,7 @@ class SpheroidalExtraction : public SurfaceExtraction<SpheroidalGeometry>
         // things with the default copy constructor
         params_t(const params_t &params)
             : center(params.center), zaxis_over_xaxis(params.zaxis_over_xaxis),
-              SurfaceExtraction::params_t(params)
+              surface_extraction_params_t(params)
         {
         }
     };

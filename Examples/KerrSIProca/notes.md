@@ -33,7 +33,7 @@ put ```SpheroidalExtraction.hpp``` in the correct location
 why is 
 
 ```hpp
-emtensor_t
+template <class data_t> struct emtensor_t
 ```
 
 reproduced from GRChombo in GRDzhadzha
