@@ -20,6 +20,8 @@ src_dirs := $(GRCHOMBO_SOURCE)/utils \
             $(GRCHOMBO_SOURCE)/BoxUtils  \
             $(GRCHOMBO_SOURCE)/TaggingCriteria  \
             $(GRCHOMBO_SOURCE)/GRChomboCore  \
-            $(GRCHOMBO_SOURCE)/AMRInterpolator
+            $(GRCHOMBO_SOURCE)/AMRInterpolator  \
+            $(GRDZHADZHA_SOURCE)/Background  \
+            $(GRDZHADZHA_SOURCE)/Matter
 
 include $(CHOMBO_HOME)/mk/Make.test
