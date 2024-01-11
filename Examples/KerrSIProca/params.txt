@@ -2,9 +2,9 @@
 
 verbosity = 0
 integral_filename = ProcaDensities
-chk_prefix = /home/dc-wang6/main_direc/GRChombo_Zipeng/FixedBGExamples/KerrSIProca/Realmu0.5A0.01c0.0_chk
-plot_prefix = /home/dc-wang6/main_direc/GRChombo_Zipeng/FixedBGExamples/KerrSIProca/Realmu0.5A0.01c0.0_plt
-#restart_file = /home/dc-cui1/rds/rds-dirac-dp131/dc-cui1/Proca/Realmu0.5A0.01c0.0_chk000040.3d.hdf5
+chk_prefix = /Realmu0.5A0.01c0.0_chk
+plot_prefix = /Realmu0.5A0.01c0.0_plt
+#restart_file = Realmu0.5A0.01c0.0_chk000040.3d.hdf5
 write_plot_ghosts = 0
 
 # Set up grid spacings and regrid params
